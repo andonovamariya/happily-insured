@@ -15,7 +15,6 @@ const UserInsurances = () => {
     const allUsers = await getAllUsers();
     allUsers.forEach((user) => {
       if (user.email === userEmail) {
-        console.log(user);
         setCurrentUserId(user.id);
       }
     });

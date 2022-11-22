@@ -46,8 +46,6 @@ export const AuthContextProvider = (props) => {
   const loginHandler = (token, userEmail) => {
     setToken(token);
     setUserEmail(userEmail);
-    console.log(token);
-    console.log(userEmail);
     if (token) {
       localStorage.setItem("token", token);
       localStorage.setItem("userEmail", userEmail);

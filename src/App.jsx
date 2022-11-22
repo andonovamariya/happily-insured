@@ -13,7 +13,6 @@ import CarInsurance from "./pages/Insurances/CarInsurance";
 
 const App = () => {
   const authCtx = useContext(AuthContext);
-  console.log(authCtx);
   return (
     <Layout>
       <Routes>

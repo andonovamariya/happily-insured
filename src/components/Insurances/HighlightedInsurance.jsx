@@ -7,7 +7,6 @@ import styles from "./Insurances.module.css";
 const HighlightedInsurance = (props) => {
   const navigate = useNavigate();
   const params = useParams();
-  console.log(params);
 
   const { loadedInsurance } = props;
 

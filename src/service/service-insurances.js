@@ -13,7 +13,6 @@ export const buyInsurance = async (insuranceData, customerId) => {
     }
   );
   const responseData = await buyInsuranceResponse.json();
-  console.log(buyInsuranceResponse);
   if (!buyInsuranceResponse.ok) {
     throw new Error(
       responseData.message ||

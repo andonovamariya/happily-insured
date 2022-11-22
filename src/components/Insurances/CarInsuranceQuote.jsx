@@ -25,7 +25,6 @@ const CarInsuranceQuote = () => {
     const allUsers = await getAllUsers();
     allUsers.forEach((user) => {
       if (user.email === userEmail) {
-        console.log(user);
         setUserId(user.id);
       }
     });
@@ -83,7 +82,6 @@ const CarInsuranceQuote = () => {
       dateOfBuying: new Date(),
     };
     buyInsurance(insuranceData, userId).catch((error) => {
-      console.log("You couldn't buy this insurance", error);
     });
     alert(
       "You have successfully bought the insurance. You can see the insurance's information in your profile."

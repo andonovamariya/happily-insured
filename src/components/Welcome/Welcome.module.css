@@ -1,0 +1,25 @@
+.starting {
+  margin: 3rem auto;
+  text-align: center;
+  color: #6e56a6;
+}
+
+.starting h1 {
+  font-size: 2rem;
+  color: #6e56a6;
+}
+
+.welcomeSection {
+  text-align: left;
+}
+
+.main-image {
+  height: 13em;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

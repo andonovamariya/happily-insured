@@ -1,0 +1,33 @@
+.button {
+  cursor: pointer;
+  color: #f1e1fc;
+  background-color: #6e56a6;
+  border: 1px solid #38015c;
+  border-radius: 36px;
+  padding: 0.5rem 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #38015c;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
